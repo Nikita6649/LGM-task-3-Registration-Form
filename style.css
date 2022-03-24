@@ -1,0 +1,59 @@
+body {
+    background: linear-gradient( 90deg, rgb(141, 99, 219) 0%, rgb(15, 164, 52) 100%);
+}
+
+table {
+    margin-top: 50px;
+    text-align: center;
+    border: 10px;
+    border-color: solid rgb(0, 0, 0);
+    border-collapse: collapse;
+}
+
+#show td {
+    padding: 13px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(221 202 130);
+}
+
+#btna td input {
+    margin-top: 5%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+    outline: none;
+    background: linear-gradient( 180deg, rgb(0, 153, 255) 0%, rgb(255, 124, 2) 100%);
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+}
+
+#btna td input:hover {
+    background: linear-gradient( 180deg, rgb(0, 200, 117) 0%, rgb(0, 134, 158) 100%);
+}
+
+#show th {
+    padding: 13px;
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background: linear-gradient( 90deg, rgb(95, 110, 241) 0%, rgb(55, 243, 111) 100%);
+}
+
+input {
+    width: 190px;
+    height: 23px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-left: 10px;
+    margin: 1px;
+}
+
+#ipt,
+h1 {
+    color: rgb(255, 255, 255);
+}
